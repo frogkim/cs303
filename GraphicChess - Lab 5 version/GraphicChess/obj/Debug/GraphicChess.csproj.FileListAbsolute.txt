@@ -1,0 +1,79 @@
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess\GraphicChess\obj\Debug\GraphicChess.csprojResolveAssemblyReference.cache
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csprojResolveAssemblyReference.cache
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2014\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csprojResolveAssemblyReference.cache
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2015\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csprojResolveAssemblyReference.cache
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2016\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Complete\GraphicChess\obj\Debug\GraphicChess.csprojResolveAssemblyReference.cache
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.Cache
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Users\srosenbe\Documents\Teaching\Fall2017\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.pdb
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.exe.config
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.exe
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.pdb
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csprojResolveAssemblyReference.cache
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.cache
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.CoreCompileInputs.cache
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.exe
+C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.pdb
