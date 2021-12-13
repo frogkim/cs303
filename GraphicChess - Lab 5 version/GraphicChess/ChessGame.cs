@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -312,11 +312,6 @@ namespace GraphicChess
                         }
                     }
                 }
-
-
-
-
-
                 return numMoves;
             }
         }
@@ -375,12 +370,13 @@ namespace GraphicChess
             InitializeComponent();
 
             board = new Piece[boardSize, boardSize];
+            // for castling
             rook1Moved = new bool[2];
             rook2Moved = new bool[2];
             kingMoved = new bool[2];
 
-            //setupBoard();
-            setupBoardTestLabQ();
+            setupBoard();
+            //setupBoardTestLabQ();
 
             moveHistory = new List<ChessMove>();
             moveIndex = 0;
@@ -787,9 +783,19 @@ namespace GraphicChess
                 return moves[0];//we really should throw here, but...
             }
             
-            int bestIndex = 0;
+            // int bestIndex = 0;
+            ChessMove bestMove = new ChessMove();
             //YOUR CODE HERE. Hint: call evaluatePosition with the same token passed in above...
-            return moves[bestIndex];
+            foreach(ChessMove move in moves)
+            {
+                Piece formerOccupant = null; // FIXME!!!
+                makeMove(move, false);
+                double value = evaluatePosition(depth - 1, ref totalMoves, token);
+                undoMove(move, formerOccupant);
+                // do something with value: use minimax strategy!
+            }
+            // return moves[bestIndex];
+            return bestMove;
         }
 
         private double evaluatePosition(int depth, ref int totalMoves, CancellationToken token)
@@ -798,13 +804,21 @@ namespace GraphicChess
             {
                 return 0;//we really should throw here, but...
             }
+            //YOUR CODE HERE: use the minimax algorithm
+            //base case of recursion:
+            if(depth == 0)
+            {
+                return objectiveFunction();
+            }
+
             List<ChessMove> moves = new List<ChessMove>();
             int numMoves = getLegalMoves(moves);
             totalMoves += numMoves;
             if (numMoves == 0) return 0;
             double value = (whoseTurn == PLAYER.WHITE) ? -10000 : 10000;
 
-            //YOUR CODE HERE
+            
+
             return value;
         }
 
