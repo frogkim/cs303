@@ -77,3 +77,14 @@ C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChes
 C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.CoreCompileInputs.cache
 C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.exe
 C:\Steve R\Documents\Teaching\Fall2018\CSCI 303\Unit 5 Game Strategy\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.pdb
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.exe.config
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.exe
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\bin\Debug\GraphicChess.pdb
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.bitmaps.resources
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.ChessGame.resources
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.Properties.Resources.resources
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.GenerateResource.cache
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.CoreCompileInputs.cache
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.exe
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.pdb
+D:\github\cs303\GraphicChess - Lab 5 version\GraphicChess\obj\Debug\GraphicChess.csproj.AssemblyReference.cache

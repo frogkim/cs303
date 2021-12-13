@@ -10,6 +10,17 @@ using System.Windows.Forms;
 using System.Collections;
 using System.Threading;
 
+/*
+You should only modify the ChessGame.cs source file. Search for "YOUR CODE HERE" to find places where you need to add code. "TODODONE"
+The following methods and rules have also been left incomplete, but are not required to be completed:
+inCheck()
+inCheckmate()
+capturing en passant
+pawn promotion
+a player cannot move into check
+castling (optionally including the rule that a player cannot castle while in check, or castle through check)
+*/
+
 namespace GraphicChess
 {
     public partial class ChessGame : Form
@@ -212,7 +223,6 @@ namespace GraphicChess
                                 moves.Add(curMove);
                                 numMoves++;
                             }
-
                             //A bishop cannot move through other pieces.
                             if (board[destination.x, destination.y] != null) break;
                         }
@@ -256,13 +266,11 @@ namespace GraphicChess
                                 moves.Add(curMove);
                                 numMoves++;
                             }
-
                             //A rook cannot move through other pieces.
                             if (board[destination.x, destination.y] != null) break;
                         }
                     }
                 }
-
                 return numMoves;
             }
         }
@@ -280,7 +288,35 @@ namespace GraphicChess
                 Point destination;
                 ChessMove curMove;
 
-                //YOUR CODE HERE
+                // TODODONE
+                for (xDirection = -1; xDirection <= 1; xDirection++)
+                {
+                    for (yDirection = -1; yDirection <= 1; yDirection++)
+                    {
+                        for (i = 1; i < boardSize; i++)
+                        {
+                            destination.x = boardLocation.x + i * xDirection;
+                            destination.y = boardLocation.y + i * yDirection;
+                            if (!isOnBoard(destination)) break;
+                            Piece p = board[destination.x, destination.y];
+
+                            if (p == null || p.whosePiece != whosePiece)
+                            {
+                                curMove.origin = boardLocation;
+                                curMove.destination = destination;
+                                moves.Add(curMove);
+                                numMoves++;
+                            }
+                            //A rook cannot move through other pieces.
+                            if (board[destination.x, destination.y] != null) break;
+                        }
+                    }
+                }
+
+
+
+
+
                 return numMoves;
             }
         }
@@ -316,7 +352,6 @@ namespace GraphicChess
                         }
                     }
                 }
-
                 return numMoves;
             }
         }
@@ -344,7 +379,8 @@ namespace GraphicChess
             rook2Moved = new bool[2];
             kingMoved = new bool[2];
 
-            setupBoard();
+            //setupBoard();
+            setupBoardTestLabQ();
 
             moveHistory = new List<ChessMove>();
             moveIndex = 0;
@@ -367,6 +403,207 @@ namespace GraphicChess
                 textBox1.Text = x + "," + y;
             }
             drawBoard();
+        }
+        private void setupBoardTestLabQ()
+        {
+            int i, j;
+            PLAYER player;
+
+            // small -- black, large -- white
+            // 'p', 'P' - pawn
+            // 'n', 'N' - knight
+            // 'b', 'B' - bishop
+            // 'r', 'R' - rook
+            // 'q', 'Q' - queen
+            // 'k', 'K' - king
+
+            char[,] boardStatus =
+            {
+            {'r', 'n', 'b', ' ', 'k', ' ', 'n', 'r'},
+            {' ', 'p', 'p', 'p', ' ', 'p', 'p', 'p'},
+            {' ', ' ', ' ', ' ', 'p', 'q', ' ', ' '},
+            {' ', ' ', ' ', ' ', 'N', ' ', 'B', ' '},
+            {'p', ' ', ' ', 'P', 'P', ' ', 'p', 'P'},
+            {' ', ' ', 'P', ' ', ' ', 'P', ' ', ' '},
+            {'P', ' ', 'P', ' ', ' ', ' ', 'P', ' '},
+            {'R', ' ', ' ', 'Q', 'K', 'B', ' ', 'R'}
+            }; // boardStatus[ rows, colums ] = [ y, x ]
+
+
+            for (int x = 0; x < boardSize; x++)
+            {
+                for (int y = 0; y < boardSize; y++)
+                {
+                    i = x;
+                    j = boardSize - 1 - y;
+                    // y's value increases reversely with Cartesian space
+
+                    switch (boardStatus[y, x])
+                    {
+                        case ' ':
+                            board[i, j] = null;
+                            break;
+
+                        case 'p':
+                            board[i, j] = new Pawn(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'P':
+                            board[i, j] = new Pawn(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'n':
+                            board[i, j] = new Knight(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'N':
+                            board[i, j] = new Knight(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'b':
+                            board[i, j] = new Bishop(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'B':
+                            board[i, j] = new Bishop(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'r':
+                            board[i, j] = new Rook(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'R':
+                            board[i, j] = new Rook(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'q':
+                            board[i, j] = new Queen(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'Q':
+                            board[i, j] = new Queen(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'k':
+                            board[i, j] = new King(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'K':
+                            board[i, j] = new King(i, j, PLAYER.WHITE);
+                            break;
+                    }
+                }
+            }
+
+            for (i = 0; i < 2; i++)
+            {
+                rook1Moved[i] = false;
+                rook2Moved[i] = false;
+                kingMoved[i] = false;
+            }
+
+            whoseTurn = PLAYER.WHITE;
+        }
+
+        private void setupBoardTestLabQQ()
+        {
+            int i, j;
+            PLAYER player;
+
+            // small -- black, large -- white
+            // 'p', 'P' - pawn
+            // 'n', 'N' - knight
+            // 'b', 'B' - bishop
+            // 'r', 'R' - rook
+            // 'q', 'Q' - queen
+            // 'k', 'K' - king
+
+            char[,] boardStatus =
+            {
+            {' ', 'n', ' ', 'q', 'k', 'b', ' ', 'r'},
+            {' ', 'b', ' ', ' ', 'p', ' ', 'p', 'p'},
+            {' ', ' ', 'p', ' ', 'B', 'N', ' ', ' '},
+            {'r', ' ', ' ', ' ', 'Q', ' ', ' ', ' '},
+            {'p', 'p', ' ', ' ', ' ', ' ', 'p', ' '},
+            {' ', ' ', ' ', ' ', ' ', 'P', ' ', ' '},
+            {'P', 'P', 'P', 'P', ' ', ' ', ' ', 'P'},
+            {'R', ' ', 'B', ' ', 'K', ' ', 'N', 'R'}
+            };
+            // boardStatus[ colums, rows ]
+
+            for (int x = 0; x < boardSize; x++)
+            {
+                for (int y = 0; y < boardSize; y++)
+                {
+                    i = x;
+                    j = boardSize - 1 - y;
+                    // y's value increases reversely with Cartesian space
+
+                    switch (boardStatus[y, x])
+                    {
+                        case ' ':
+                            board[i, j] = null;
+                            break;
+
+                        case 'p':
+                            board[i, j] = new Pawn(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'P':
+                            board[i, j] = new Pawn(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'n':
+                            board[i, j] = new Knight(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'N':
+                            board[i, j] = new Knight(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'b':
+                            board[i, j] = new Bishop(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'B':
+                            board[i, j] = new Bishop(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'r':
+                            board[i, j] = new Rook(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'R':
+                            board[i, j] = new Rook(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'q':
+                            board[i, j] = new Queen(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'Q':
+                            board[i, j] = new Queen(i, j, PLAYER.WHITE);
+                            break;
+
+                        case 'k':
+                            board[i, j] = new King(i, j, PLAYER.BLACK);
+                            break;
+
+                        case 'K':
+                            board[i, j] = new King(i, j, PLAYER.WHITE);
+                            break;
+                    }
+                }
+            }
+
+            for (i = 0; i < 2; i++)
+            {
+                rook1Moved[i] = false;
+                rook2Moved[i] = false;
+                kingMoved[i] = false;
+            }
+
+            whoseTurn = PLAYER.BLACK;
         }
 
         private void setupBoard()
@@ -764,7 +1001,8 @@ namespace GraphicChess
 
         private void startNewGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            setupBoard();
+            //setupBoard();
+            setupBoardTestLabQ();
             drawBoard();
             this.Click += form_Click;
             moveHistory = new List<ChessMove>();
